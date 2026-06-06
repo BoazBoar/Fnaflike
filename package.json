@@ -1,0 +1,29 @@
+{
+  "name": "fnaflike",
+  "version": "1.0.0",
+  "description": "Fnaf fan game",
+  "homepage": "https://github.com/BoazBoar/Fnaflike#readme",
+  "bugs": {
+    "url": "https://github.com/BoazBoar/Fnaflike/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoazBoar/Fnaflike.git"
+  },
+  "license": "ISC",
+  "author": "Boaz Vaneveld",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.15.0",
+    "@stylistic/eslint-plugin": "2.10.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-jsdoc": "50.5.0",
+    "typescript": "5.6",
+    "typescript-eslint": "8.14.0"
+  }
+}

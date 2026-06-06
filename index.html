@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fnaflike</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+        }
+
+        body {
+            background-repeat: no-repeat;
+            background-color: black;
+        }
+
+        canvas {
+            display: block;
+            margin: auto;
+            height: 100vh;
+            width: 100vw;
+            /* Ensure the background image fits inside the canvas */
+            background-size: contain;
+            /* Maintains aspect ratio of the canvas */
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="game" style="image-rendering: pixelated"></canvas>
+    <script src="build/app.js" type="module"></script>
+</body>
+
+</html>
